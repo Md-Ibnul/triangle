@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.primary-btn{
+    padding: 10px 25px;
+    color: #00aeef;
+    border: 1px solid #0099ae;
+    background: transparent;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif; 
+}
+.primary-btn:hover{
+    color: #FFF;
+    background: #00aeef;
+}
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif; 
+*/
+
+/* navbar style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    width: 1140px;
+    margin: auto;
+}
+.menu{
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    font-family: 'Lato', sans-serif; 
+    font-size: 14px;
+    color: black;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+/* banner style */
+.banner{
+    background: url(../images/slider-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+.banner-img{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.banner1{
+    pposition: relative;
+    top: 0;
+    right: 0;
+}
+.banner2{
+    position: absolute;
+    bottom: -29px;
+    right: 50px;
+}
+.banner3{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+.banner4 {
+    position: absolute;
+    bottom: 48px;
+    left: 74px;
+}
+.banner-details{
+    margin-top: 50px;
+    width: 500px;
+    margin: auto;
+}
+.banner-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    color: #222222;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-family: 'Lato', sans-serif; 
+    font-size: 16px;
+    color: #444444;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+/* about section style */
+.about{
+    width: 1140px;
+    margin:0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.section-title{
+    font-size: 24px;
+    color: #686868;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.section-description{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+    padding: 0 50px;
+}
+
+/* template section style */
+.template{
+    background: url(../images/404-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.template-items{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.teplate-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.temp-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    color: #222222;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.temp-subtitle{
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300;
+    font-size: 18px;
+    color: #222222;
+}
+
+/* about us style */
+.about-us{
+    width: 1140px;
+    margin: auto;
+}
+.about-us-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 60px;
+}
+.about-us-info{
+    width: 500px;
+}
+.aup{
+    padding: 0;
+}
+.about-middle{
+    text-align: right;
+}
+
+/* clients section styles */
+.happy-clients{
+    width: 1140px;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ch-des{
+    width: 400px;
+    margin: auto;
+}
+.clients-img{
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.clients{
+    padding: 0 70px;
+}
